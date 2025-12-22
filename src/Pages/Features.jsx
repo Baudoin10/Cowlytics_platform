@@ -19,10 +19,10 @@ const Features = () => {
       icon: Activity,
       title: "Health Monitoring",
       description:
-        "24/7 continuous monitoring of vital signs, body temperature, and activity levels for early disease detection.",
+        " 24/7 continuous monitoring of heart rate, body temperature, stress and animal behavior during estrus, and activity levels for early disease detection.",
       benefits: [
         "Real-time health alerts",
-        "Early disease detection",
+        "Metabolic disorder detection",
         "Comprehensive health reports",
       ],
     },
@@ -30,7 +30,7 @@ const Features = () => {
       icon: BarChart3,
       title: "AI Analytics",
       description:
-        "Advanced machine learning algorithms analyze patterns to predict health issues and optimize farm productivity.",
+        "Advanced machine learning algorithms analyze patterns to predict health challenges and optimize livestock productivity.",
       benefits: [
         "Predictive health insights",
         "Productivity optimization",
@@ -42,7 +42,11 @@ const Features = () => {
       title: "Geo-Fencing",
       description:
         "Set virtual boundaries and receive instant alerts when livestock move outside designated areas.",
-      benefits: ["Theft prevention", "Grazing management", "Location tracking"],
+      benefits: [
+        "Livestock security",
+        "Precise grazing practices",
+        "Location tracking",
+      ],
     },
     {
       icon: Users,
@@ -59,12 +63,8 @@ const Features = () => {
       icon: Zap,
       title: "Long Battery Life",
       description:
-        "Ultra-efficient design provides up to 5 years of operation without battery replacement.",
-      benefits: [
-        "5+ years battery life",
-        "Solar charging option",
-        "Low maintenance",
-      ],
+        "Ultra-efficient design provides up to 2+ years of operation without battery replacement.",
+      benefits: ["2+ years battery life"],
     },
     {
       icon: Phone,
@@ -177,64 +177,9 @@ const Features = () => {
       </section>
 
       {/* Additional Features Grid */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-2xl font-bold mb-6">Additional Capabilities</h2>
-            <p className="text-gray-600">
-              Even more features to enhance your livestock management experience
-            </p>
-          </div>
+    
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {additionalFeatures.map((feature, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-lg p-6 shadow hover:shadow-lg transition-shadow text-center"
-              >
-                <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <feature.icon className="h-8 w-8 text-[#1C4F7B]" />
-                </div>
-                <h3 className="text-lg font-semibold mb-2">{feature.title}</h3>
-                <p className="text-gray-600 text-sm">{feature.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Technical Specifications */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-2xl font-bold mb-6">
-              Technical Specifications
-            </h2>
-            <p className="text-gray-600">
-              Industry-leading hardware and software specifications
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { title: "5+ Years", subtitle: "Battery Life" },
-              { title: "IP67", subtitle: "Water Resistance" },
-              { title: "±1°C", subtitle: "Temperature Accuracy" },
-              { title: "99.9%", subtitle: "Uptime Reliability" },
-            ].map((item, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-lg p-6 text-center shadow"
-              >
-                <h3 className="text-2xl font-bold text-[#1C4F7B] mb-2">
-                  {item.title}
-                </h3>
-                <p className="text-gray-600">{item.subtitle}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+    
     </div>
   );
 };
