@@ -177,9 +177,6 @@ const Features = () => {
       </section>
 
       {/* Additional Features Grid */}
-    
-
-    
     </div>
   );
 };
