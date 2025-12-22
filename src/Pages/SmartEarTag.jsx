@@ -13,12 +13,9 @@ const SmartEarTag = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#002240] to-blue-900 text-white py-20">
+      <section className="bg-[#002240] text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
-            <div className="text-sm font-semibold text-blue-300 mb-2">
-              PRODUCT #2
-            </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               AI-Powered Smart Ear Tag
             </h1>
@@ -29,19 +26,9 @@ const SmartEarTag = () => {
               track body temperature, heart rate, activity, and behavioral
               patterns in real time.
             </p>
-            <a
-              href="https://cal.com/baudoin-bolingo-cpe66z"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-white text-[#002240] font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-gray-100 transition"
-            >
-              Request a Demo
-            </a>
           </div>
         </div>
       </section>
-
- 
 
       {/* Overview */}
       <section className="container mx-auto px-4 py-16">
@@ -128,38 +115,6 @@ const SmartEarTag = () => {
                   productivity of your herd.
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Use Cases */}
-      <section className="bg-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 mb-12">
-              Use Cases
-            </h2>
-            <div className="space-y-6">
-              <UseCaseCard
-                title="Early Disease Detection"
-                description="Identify sick animals before visible symptoms appear, reducing treatment costs and preventing disease spread throughout your herd."
-              />
-
-              <UseCaseCard
-                title="Breeding Optimization"
-                description="Maximize conception rates with precise heat detection, reducing days open and improving overall herd fertility."
-              />
-
-              <UseCaseCard
-                title="Stress Management"
-                description="Monitor stress indicators during transportation, weather changes, or environmental challenges to ensure animal welfare."
-              />
-
-              <UseCaseCard
-                title="Biosecurity Enhancement"
-                description="Create detailed health records for each animal, improving traceability and compliance with health regulations."
-              />
             </div>
           </div>
         </div>

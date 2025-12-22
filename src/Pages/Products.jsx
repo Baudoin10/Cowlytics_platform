@@ -12,16 +12,13 @@ const Products = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#002240] to-blue-900 text-white py-16">
+      <section className="bg-[#002240] text-white py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Products</h1>
           <p className="text-xl max-w-3xl">
             Cowlytics offers two core livestock health-monitoring devices,
             designed to give producers real-time visibility into animal health,
             behavior, and movement using AI and IoT technology.
-          </p>
-          <p className="text-sm mt-4 text-gray-300">
-            Real product images coming January.
           </p>
         </div>
       </section>
@@ -101,8 +98,6 @@ const Products = () => {
           />
         </div>
       </section>
-
-    
     </div>
   );
 };
