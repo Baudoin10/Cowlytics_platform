@@ -1,4 +1,5 @@
 
+
 import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
@@ -129,15 +130,17 @@ const Footer = () => {
               <li className="text-gray-300">
                 <span className="block text-sm font-medium mb-1">Phone:</span>
                 <a
-                  href="tel:+250123456789"
+                  href="tel:+16177854720"
                   className="hover:text-white transition-colors"
                 >
-                  +250 123 456 789
+                  +1 (617) 785-4720
                 </a>
               </li>
               <li className="text-gray-300">
                 <span className="block text-sm font-medium mb-1">Address:</span>
-                <span>Kigali, Rwanda</span>
+                <span className="block">111B S GOVERNORS AVE</span>
+                <span className="block">STE 34788</span>
+                <span className="block">United States</span>
               </li>
             </ul>
           </div>

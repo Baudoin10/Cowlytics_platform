@@ -155,24 +155,15 @@ const Contact = () => {
           </div>
 
           <div className="space-y-6">
-            <div>
-              <h2 className="text-2xl font-bold mb-6">Get in Touch</h2>
-              <p className="text-gray-600  mb-8">
-                We're here to help you succeed. Whether you have questions about
-                our products, need technical support, or want to discuss a
-                custom solution, our team is ready to assist.
-              </p>
-            </div>
-
             {[
               {
                 icon: <MapPin className="h-6 w-6 text-[#1C4F7B]" />,
                 title: "Our Office",
                 content: (
                   <>
-                    123 Agriculture Drive
+                    Main Street
                     <br />
-                    Farm Tech City, FT 12345
+                    111B S GOVERNORS AVE STE 34788
                     <br />
                     United States
                   </>
@@ -194,15 +185,7 @@ const Contact = () => {
               {
                 icon: <Mail className="h-6 w-6 text-[#1C4F7B]" />,
                 title: "Email Us",
-                content: (
-                  <>
-                    General: info@cowlytics.com
-                    <br />
-                    Support: support@cowlytics.com
-                    <br />
-                    Sales: sales@cowlytics.com
-                  </>
-                ),
+                content: <>General: info@cowlytics.com</>,
               },
               {
                 icon: <Clock className="h-6 w-6 text-[#1C4F7B]" />,
