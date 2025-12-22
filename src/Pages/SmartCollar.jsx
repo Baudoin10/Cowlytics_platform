@@ -126,37 +126,6 @@ const SmartCollar = () => {
           </div>
         </div>
       </section>
-
- 
-
-      {/* CTA Section */}
-      <section className="bg-[#002240] text-white py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">
-            Ready to Monitor Your Herd with Smart Collars?
-          </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Get a personalized demo and see how our Smart Health Collar can
-            transform your livestock management
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://cal.com/baudoin-bolingo-cpe66z"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white text-[#002240] font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-gray-100 transition"
-            >
-              Schedule a Demo
-            </a>
-            <Link
-              to="/products"
-              className="bg-transparent border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white hover:text-[#002240] transition"
-            >
-              View All Products
-            </Link>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };

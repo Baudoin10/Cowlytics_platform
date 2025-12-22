@@ -102,26 +102,7 @@ const Products = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="bg-[#002240] text-white py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">
-            Ready to Transform Your Livestock Management?
-          </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            See how our AI-powered devices can help you monitor your herd more
-            effectively
-          </p>
-          <a
-            href="https://cal.com/baudoin-bolingo-cpe66z"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-white text-[#002240] font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-gray-100 transition"
-          >
-            Schedule a Demo
-          </a>
-        </div>
-      </section>
+    
     </div>
   );
 };
@@ -138,12 +119,7 @@ const ProductCard = ({
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
       {/* Product Image Placeholder */}
-      <div className="bg-gradient-to-br from-blue-100 to-blue-200 h-64 flex items-center justify-center">
-        <div className="text-center">
-          <div className="text-6xl font-bold text-blue-300 mb-2">{number}</div>
-          <p className="text-gray-600">Product image coming soon</p>
-        </div>
-      </div>
+   
 
       <div className="p-6">
         <h3 className="text-2xl font-bold text-gray-900 mb-2">{title}</h3>

@@ -136,12 +136,7 @@ const Footer = () => {
                   +1 (617) 785-4720
                 </a>
               </li>
-              <li className="text-gray-300">
-                <span className="block text-sm font-medium mb-1">Address:</span>
-                <span className="block">111B S GOVERNORS AVE</span>
-                <span className="block">STE 34788</span>
-                <span className="block">United States</span>
-              </li>
+        
             </ul>
           </div>
         </div>

@@ -61,7 +61,7 @@ const NavLinks = ({ productsOpen, setProductsOpen }) => (
         <ChevronDown size={16} className="ml-1" />
       </button>
 
-      {productsOpen && (
+      {/* {productsOpen && (
         <div className="absolute top-full left-0 mt-2 w-64 bg-white shadow-lg rounded-lg border z-50">
           <Link
             to="/products"
@@ -86,6 +86,36 @@ const NavLinks = ({ productsOpen, setProductsOpen }) => (
             <div className="font-semibold text-gray-900">Smart Ear Tag</div>
             <div className="text-sm text-gray-500">IoT sensor nodes</div>
           </Link>
+        </div>
+        
+      )} */}
+      {productsOpen && (
+        <div className="absolute top-full left-0 pt-2 w-64 z-50">
+          <div className="bg-white shadow-lg rounded-lg border">
+            <Link
+              to="/products"
+              className="block px-4 py-3 hover:bg-gray-50 border-b"
+            >
+              <div className="font-semibold text-gray-900">All Products</div>
+              <div className="text-sm text-gray-500">View our full range</div>
+            </Link>
+            <Link
+              to="/products/smart-collar"
+              className="block px-4 py-3 hover:bg-gray-50 border-b"
+            >
+              <div className="font-semibold text-gray-900">
+                Smart Health Collar
+              </div>
+              <div className="text-sm text-gray-500">GNSS + AI monitoring</div>
+            </Link>
+            <Link
+              to="/products/smart-ear-tag"
+              className="block px-4 py-3 hover:bg-gray-50"
+            >
+              <div className="font-semibold text-gray-900">Smart Ear Tag</div>
+              <div className="text-sm text-gray-500">IoT sensor nodes</div>
+            </Link>
+          </div>
         </div>
       )}
     </div>
