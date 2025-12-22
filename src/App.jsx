@@ -12,6 +12,7 @@ import Features from "./Pages/Features";
 import Products from "./Pages/Products";
 import SmartCollar from "./Pages/SmartCollar";
 import SmartEarTag from "./Pages/SmartEarTag";
+import NotFound from "./Components/NotFound";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 const App = () => {
@@ -27,6 +28,8 @@ const App = () => {
           <Route path="products" element={<Products />} />
           <Route path="products/smart-collar" element={<SmartCollar />} />
           <Route path="products/smart-ear-tag" element={<SmartEarTag />} />
+          {/* Catch all unmatched routes */}
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
