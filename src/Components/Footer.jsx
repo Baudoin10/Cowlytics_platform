@@ -1,5 +1,4 @@
 
-
 import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
@@ -20,19 +19,24 @@ const Footer = () => {
               Revolutionizing livestock management with smart technology and
               AI-powered insights.
             </p>
+            
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-blue-400 transition-colors">
-                <FaFacebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:text-blue-400 transition-colors">
-                <FaXTwitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:text-blue-400 transition-colors">
-                <FaLinkedin className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:text-blue-400 transition-colors">
-                <FaInstagram className="h-5 w-5" />
-              </a>
+              <FaFacebook
+                className="h-5 w-5 hover:text-blue-400 transition-colors cursor-pointer"
+                onClick={() => alert("Our Facebook page is coming soon!")}
+              />
+              <FaXTwitter
+                className="h-5 w-5 hover:text-blue-400 transition-colors cursor-pointer"
+                onClick={() => alert("Our Twitter page is coming soon!")}
+              />
+              <FaLinkedin
+                className="h-5 w-5 hover:text-blue-400 transition-colors cursor-pointer"
+                onClick={() => alert("Our LinkedIn page is coming soon!")}
+              />
+              <FaInstagram
+                className="h-5 w-5 hover:text-blue-400 transition-colors cursor-pointer"
+                onClick={() => alert("Our Instagram page is coming soon!")}
+              />
             </div>
           </div>
 
@@ -173,3 +177,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
