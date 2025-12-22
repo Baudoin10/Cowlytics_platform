@@ -81,18 +81,18 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  to=""
+                  to="/products/smart-collar"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
-                  Smart Ear Tags
+                  Smart Health Collar
                 </Link>
               </li>
               <li>
                 <Link
-                  to=""
+                  to="/products/smart-ear-tag"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
-                  Health Monitoring
+                  Smart Ear Tag
                 </Link>
               </li>
               <li>
@@ -136,7 +136,6 @@ const Footer = () => {
                   +1 (617) 785-4720
                 </a>
               </li>
-        
             </ul>
           </div>
         </div>

@@ -118,7 +118,7 @@ const Features = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative bg-[#1C4F7B] text-white py-20">
+      <section className="relative bg-[#002240] text-white py-20">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl  font-bold mb-6">
