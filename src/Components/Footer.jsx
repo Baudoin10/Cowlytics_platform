@@ -1,9 +1,9 @@
-  import { Link } from "react-router-dom";
+
+import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
             <Link to="/" className="flex items-center space-x-2 mb-4">
               <span className="text-xl font-bold">Cowlytics</span>
             </Link>
-            <p className="mb-4">
+            <p className="mb-4 text-gray-300">
               Revolutionizing livestock management with smart technology and
               AI-powered insights.
             </p>
@@ -40,14 +40,17 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="hover:text-white transition-colors">
+                <Link
+                  to="/"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Home
                 </Link>
               </li>
               <li>
                 <Link
                   to="/about"
-                  className="hover:text-white transition-colors"
+                  className="text-gray-300 hover:text-white transition-colors"
                 >
                   About Us
                 </Link>
@@ -55,16 +58,17 @@ const Footer = () => {
               <li>
                 <Link
                   to="/contact"
-                  className="hover:text-white transition-colors"
+                  className="text-gray-300 hover:text-white transition-colors"
                 >
                   Contact Us
                 </Link>
               </li>
               <li>
-                <Link to="/feature">
-                  <span className="hover:text-white transition-colors">
-                    Features
-                  </span>
+                <Link
+                  to="/feature"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  Features
                 </Link>
               </li>
             </ul>
@@ -75,32 +79,71 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Products</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="" className="hover:text-white transition-colors">
+                <Link
+                  to=""
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Smart Ear Tags
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-white transition-colors">
+                <Link
+                  to=""
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Health Monitoring
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-white transition-colors">
+                <Link
+                  to=""
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Mobile App
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-white transition-colors">
+                <Link
+                  to=""
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Analytics Dashboard
                 </Link>
               </li>
             </ul>
           </div>
 
-       
+          {/* Contact */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Contact</h3>
+            <ul className="space-y-3">
+              <li className="text-gray-300">
+                <span className="block text-sm font-medium mb-1">Email:</span>
+                <a
+                  href="mailto:info@cowlytics.com"
+                  className="hover:text-white transition-colors"
+                >
+                  info@cowlytics.com
+                </a>
+              </li>
+              <li className="text-gray-300">
+                <span className="block text-sm font-medium mb-1">Phone:</span>
+                <a
+                  href="tel:+250123456789"
+                  className="hover:text-white transition-colors"
+                >
+                  +250 123 456 789
+                </a>
+              </li>
+              <li className="text-gray-300">
+                <span className="block text-sm font-medium mb-1">Address:</span>
+                <span>Kigali, Rwanda</span>
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <div className="border-t border-white mt-12 pt-8">
+        <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
               © 2025 Cowlytics. All rights reserved.
