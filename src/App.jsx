@@ -1,3 +1,4 @@
+
 // src/App.jsx
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -8,6 +9,9 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Features from "./Pages/Features";
+import Products from "./Pages/Products";
+import SmartCollar from "./Pages/SmartCollar";
+import SmartEarTag from "./Pages/SmartEarTag";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 const App = () => {
@@ -20,6 +24,9 @@ const App = () => {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="feature" element={<Features />} />
+          <Route path="products" element={<Products />} />
+          <Route path="products/smart-collar" element={<SmartCollar />} />
+          <Route path="products/smart-ear-tag" element={<SmartEarTag />} />
         </Route>
       </Routes>
     </BrowserRouter>
