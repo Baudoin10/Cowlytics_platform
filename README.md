@@ -4,6 +4,7 @@ A modern web application built with React and Tailwind CSS.
 
 ## Description
 
+
 This app helps people—especially farmers, veterinarians, and livestock managers—monitor the health and activity of their animals, detect issues early, save time and labor, and make better decisions using real-time data and insights. It’s especially useful in large or remote farms where constant manual monitoring is difficult.
 
 ## Tech Stack
